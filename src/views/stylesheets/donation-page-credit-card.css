@@ -5,8 +5,8 @@
 
 
 .form-image{
-    height:950px;
-    width:400px;
+    height:1000px;
+    width:600px;
     object-fit:cover;
     border-radius:20px;
 }
@@ -61,8 +61,8 @@ color:var(--blue)
     border:5px solid var(--pink);
     width:900px;
     border-radius:15px;
-    height:950px;
-    margin-left:20px;
+    height:1000px;
+    margin-left:50px;
 }
 
 .pay-methods{
@@ -76,7 +76,7 @@ color:var(--blue)
     margin:20px;
     color:var(--blue);
     border-radius:20px;
-    height:750px;
+    height:800px;
     /* background-color:orange; */
 }
 

@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import { useState } from "react";
-import "./stylesheets/donation-page-credit-card.css";
-function DonationPageCreditCard() {
+import "./stylesheets/donation-page-mpesa.css";
+function DonationPageMpesa() {
   return (
     <>
       <NavBar elements={[]} />    
@@ -48,25 +48,9 @@ function DonationPageCreditCard() {
               </div>
             </div>
             <div>
-              <h4>Shipping address</h4>
-              <div className="payer-details">
-                <input type="text" placeholder="First name"></input>
-                <input type="text" placeholder="Last name"></input>
-                <input type="text" placeholder="Address"></input>
-                <input type="text" placeholder="Aprtment/Building"></input>
-                <input type="text" placeholder="City"></input>
-                <input type="text" placeholder="Country"></input>
-                <input type="text" placeholder="Postal code"></input>
-                <input type="text" placeholder="Phone"></input>
-                <input type="text" placeholder="Card number"></input>
-                <input type="text" placeholder="CVV"></input>
-                <input type="text" placeholder="Expiry date"></input>
-              </div>
-            </div>
-            <div>
               <h4>Donation amount</h4>
               <div>
-                <input type="text" placeholder="Enter amount here"></input>
+                <input type="text" required placeholder="Enter amount here"></input>
                 </div>
                 </div>
                 <div>
@@ -80,7 +64,25 @@ function DonationPageCreditCard() {
                 <div>I want to donate anonymously</div>
               </div>
             </div>
-            <button className="donate-button" disabled>Donate</button>
+            <div className="paybill-div">
+              <h4>Paybill</h4>
+              <div className="payer-details">
+                <div>Paybill: 12345</div>
+                <div>Account Number: 12345678</div>
+              </div>
+            </div>
+            <h4>Send Money:</h4>
+              <div className="payer-details">
+                <div>0712345678</div>
+              </div>
+              <div>
+              <h4>Mpesa prompt</h4>
+              <div className="payer-details">
+              <button className="donate-button" disabled>Get prompt</button>
+              </div>
+            </div>
+           
+
           </form>
         </div>
         <img
@@ -93,4 +95,4 @@ function DonationPageCreditCard() {
   );
 }
 
-export default DonationPageCreditCard;
+export default DonationPageMpesa;

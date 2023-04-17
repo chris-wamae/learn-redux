@@ -1,4 +1,4 @@
-import "./landing-page.css"
+import "./stylesheets/landing-page.css"
 import NavBar from "../components/NavBar";
 
 function LandingPage() {
