@@ -1,0 +1,85 @@
+.donation-page{
+    text-align:center;
+}
+
+
+.form-image{
+    height:500px;
+}
+
+
+
+.mpesa-logo{
+    width:100px;
+    height:60px;
+    margin-right:80px;
+    margin-left:80px;
+}
+
+.paypal-logo{
+    width:120px;
+    height:30px;
+    margin-top:15px;
+    align-items:center;
+    
+}
+
+.card-svg{
+width:50px;
+margin:0px;
+height:40px;
+}
+
+.card-pay-div{
+    display: flex;
+    align-items:center;
+    color:var(--blue);
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.main-header{
+color:var(--blue);
+font-size:40px;
+
+
+}
+
+.sub-header{
+color:var(--blue)
+}
+
+.form-container{
+    border:5px solid var(--pink);
+    width:700px;
+    border-radius:15px;
+    height:800px;
+}
+
+.pay-methods{
+    display:flex;
+    justify-content:center;
+    margin:0px;
+}
+
+.pay-form{
+    border:5px solid var(--pink);
+    margin:20px;
+}
+
+.pay-form input{
+    text-align:center;
+    border:1px solid var(--grey);
+    border-radius:5px;
+}
+
+.donate-button{
+    background-color:var(--pink);
+    color:var(--blue);
+    width:180px;
+    height:40px;
+    font-size:24px;
+    border-radius:10px;
+    font-weight:bold;
+}
