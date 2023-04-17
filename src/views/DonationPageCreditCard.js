@@ -1,14 +1,15 @@
 import NavBar from "../components/NavBar";
 import { useState } from "react";
-import "./donation-page.css";
-function DonationPage() {
+import "./donation-page-credit-card.css";
+function DonationPageCreditCard() {
   return (
     <>
-      <NavBar elements={[]} />
-      <div className="donation-page">
-        <h2 className="main-header">
+      <NavBar elements={[]} />    
+      <h2 className="main-header">
           You are just a few steps away from transforming a girl's life
         </h2>
+      <div className="donation-page">
+    
         <div className="form-container">
           <h3 className="sub-header">Start by picking a payment method:</h3>
           <div className="pay-methods">
@@ -41,38 +42,42 @@ function DonationPage() {
           <form className="pay-form">
             <div>
               <h4>Contact information</h4>
-              <div>
-                <input placeholder="Email address"></input>
-                <input placeholder="Telephone number"></input>
+              <div className="contacts">
+                <input type="text" placeholder="Email address"></input>
+                <input type="text" placeholder="Telephone number"></input>
               </div>
             </div>
             <div>
               <h4>Shipping address</h4>
-              <div>
-                <input placeholder="First name"></input>
-                <input placeholder="Last name"></input>
-                <input placeholder="Address"></input>
-                <input placeholder="Aprtment/Building"></input>
-                <input placeholder="City"></input>
-                <input placeholder="Country"></input>
-                <input placeholder="Postal code"></input>
-                <input placeholder="Phone"></input>
-                <input placeholder="Card number"></input>
-                <input placeholder="CVV"></input>
-                <input placeholder="Expiry date"></input>
+              <div className="payer-details">
+                <input type="text" placeholder="First name"></input>
+                <input type="text" placeholder="Last name"></input>
+                <input type="text" placeholder="Address"></input>
+                <input type="text" placeholder="Aprtment/Building"></input>
+                <input type="text" placeholder="City"></input>
+                <input type="text" placeholder="Country"></input>
+                <input type="text" placeholder="Postal code"></input>
+                <input type="text" placeholder="Phone"></input>
+                <input type="text" placeholder="Card number"></input>
+                <input type="text" placeholder="CVV"></input>
+                <input type="text" placeholder="Expiry date"></input>
               </div>
             </div>
             <div>
               <h4>Donation amount</h4>
               <div>
-                <input placeholder="Enter amount here"></input>
+                <input type="text" placeholder="Enter amount here"></input>
+                </div>
+                </div>
+                <div>
                 <h4>Additional options:</h4>
+                <div className="additional-options">
                 <input type="checkbox"></input>
                 <div>Remind me to donate each month</div>
                 <input type="checkbox"></input>
                 <div>Set up automatic monthly donations for me</div>
                 <input type="checkbox"></input>
-                <div>I want to donated anonymously</div>
+                <div>I want to donate anonymously</div>
               </div>
             </div>
             <button className="donate-button" disabled>Donate</button>
@@ -88,4 +93,4 @@ function DonationPage() {
   );
 }
 
-export default DonationPage;
+export default DonationPageCreditCard;
