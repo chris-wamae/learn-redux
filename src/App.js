@@ -5,13 +5,18 @@ import DonationPageCreditCard from './views/DonationPageCreditCard';
 import DonationPageMpesa from './views/DonationPageMpesa';
 import Counter from './features/counter/Counter';
 import LandingPageGPT from './views/LandingPageGPT';
+import DonationPagePayPal from './views/DonationPagePayPal';
+import CharityApplication from './views/CharityApplication';
+
 function App() {
   return (
   //  <LandingPage/>
   // <DonationPageCreditCard/>
-  <DonationPageMpesa/>
+  // <DonationPagePayPal/>
+  // <DonationPageMpesa/>
   // <Counter/>
   // <LandingPageGPT/>
+  <CharityApplication/>
   );
 }
 
