@@ -6,7 +6,7 @@
 
 .form-image{
     height:1000px;
-    width:600px;
+    width:500px;
     object-fit:cover;
     border-radius:20px;
 }
@@ -62,7 +62,7 @@ color:var(--blue)
     width:900px;
     border-radius:15px;
     height:1000px;
-    margin-left:50px;
+    margin-left:0px;
 }
 
 .pay-methods{
@@ -91,16 +91,18 @@ width:350px;
 height:30px;
 }
 
-.donate-button{
-    background-color:var(--pink);
-    color:var(--blue);
-    width:180px;
-    height:50px;
-    font-size:24px;
+.prompt-button{
+    background-color:white;
+    color:var(--green);
+    width:120px;
+    height:30px;
+    font-size:16px;
     border-radius:10px;
     font-weight:bold;
-    margin-top:20px;
+    margin-top:10px;
 }
+
+
 
 .contacts{
 display: flex;
@@ -110,15 +112,94 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.payer-details{
+/* .payer-details{
 display: flex;
 flex-wrap:wrap;
 justify-content:space-around;
 width:800px;
-/* background-color:red; */
+background-color:red;
 margin-left: auto;
-margin-right: auto;}
+margin-right: auto;} */
 
+.paybill-div{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    border-radius:10px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    color:black
+}
+
+.send-money{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    border-radius:10px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    color:black
+
+}
+
+.send-money-details{
+    background-color:var(--green);
+    padding-top:10px;
+    padding-bottom:10px;
+    justify-content:space-around;
+    align-items:space-around;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin:10px;
+    border-radius:5px;
+
+}
+
+.send-money-details div{
+    margin-top:20px;
+    margin-bottom:5px;
+    border:1px solid black;
+    background-color:white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    border-radius:5px;
+    /* border-radius:; */
+
+}
+
+.paybill-details{
+    background-color:var(--green);
+    padding-top:10px;
+    padding-bottom:10px;
+    justify-content:space-around;
+    align-items:space-around;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin:10px;
+    border-radius:5px;
+}
+
+.paybill-details div{
+    margin-top:20px;
+    margin-bottom:5px;
+    border:1px solid black;
+    background-color:white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    border-radius:5px;
+    /* border-radius:; */
+ 
+}
 
 .payer-details input{
 margin-top:20px;
@@ -140,6 +221,42 @@ margin:0px;
     
     }
 
-.paybill-div{
-    
+.prompt{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    border-radius:10px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    color:black
+
 }
+
+.prompt-details{
+    background-color:var(--green);
+    padding-top:10px;
+    padding-bottom:10px;
+    justify-content:space-around;
+    align-items:space-around;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin:10px;
+    border-radius:5px;
+
+}
+
+.prompt-details input{
+    border:1px solid black;
+    background-color:white;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    border-radius:5px;
+    margin-bottom:0px;
+}
+
+

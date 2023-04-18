@@ -65,20 +65,24 @@ function DonationPageMpesa() {
               </div>
             </div>
             <div className="paybill-div">
-              <h4>Paybill</h4>
-              <div className="payer-details">
+              <h4 style={{margin:"0px"}}>Paybill</h4>
+              <div className="paybill-details">
                 <div>Paybill: 12345</div>
                 <div>Account Number: 12345678</div>
               </div>
             </div>
-            <h4>Send Money:</h4>
-              <div className="payer-details">
+           
+              <div className="send-money">
+              <h4 style={{margin:"0px"}}>Send Money:</h4>
+               <div className="send-money-details">
                 <div>0712345678</div>
+                </div>
               </div>
-              <div>
-              <h4>Mpesa prompt</h4>
-              <div className="payer-details">
-              <button className="donate-button" disabled>Get prompt</button>
+              <div className="prompt">
+              <h4 style={{margin:"0px"}}>Mpesa prompt</h4>
+              <div className="prompt-details">
+                <input type="text" placeholder="Enter your Mpesa mobile number"></input>
+              <button className="prompt-button" disabled>Get prompt</button>
               </div>
             </div>
            
